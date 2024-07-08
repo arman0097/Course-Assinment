@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- navbar -->
+     <header>
+        <nav class=" container mx-auto flex justify-between items-center py-4 px-5">
+            <a href="#">
+                <img src="img/c4u full logo_2022 1.png" alt="">
+            </a>
+            <div id="nav" class="gap-10 hidden lg:flex">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a class="text-[#F44335]" href="#">Upskill</a>
+                <a href="#">Contact us </a>
+            </div>
+            <div id="btn flex" class="hidden lg:flex items-center gap-5">
+                <button class="border px-4 py-1 bg-[#F44335] rounded-lg text-xl text-white shadow-lg transition hover:scale-105">Register Interest</button>
+                <i class="fa-solid fa-moon text-3xl"></i>
+            </div>
+
+
+
+
+
+
+            <button class="lg:hidden p-2" onclick="handleMenu()">
+                <i class="fa-solid fa-bars text-gray-600"></i>
+            </button>
+            <div id="nav-dialog" class="fixed inset-0 bg-white p-3 lg:hidden hidden">
+                <div id="nav-bar" class="justify-between flex">
+                    <a class="flex items-center gap-2" href="#">
+                        <img class="object-cover max-w-18 max-h-18" src="img/c4u full logo_2022 1.png" alt="logo">
+                    </a>
+                    <button class="lg:hidden p-2" onclick="handleMenu()">
+                        <i class="fa-solid fa-xmark text-gray-600"></i>
+                    </button>
+                </div>
+                <div class="mt-6">
+                    <a class="text-lg font-medium block p-3 hover:bg-gray-50 rounded" href="#">Home</a>
+                    <a class="text-lg font-medium block p-3 hover:bg-gray-50 rounded"  href="#">About</a>
+                    <a class="text-lg font-medium block p-3 hover:bg-gray-50 rounded" href="#">Upskill</a>
+                    <a class="text-lg font-medium block p-3 hover:bg-gray-50 rounded" href="#">Contact us</a>
+                </div>
+            </div>
+        </nav>
+     </header>
+
+     <!-- main -->
+      <main class=" container mx-auto">
+        <section class=" PX-5 m-5 grid grid-cols-12 md:pt-10 ">
+            <div class="md:col-span-6 col-span-12">
+                <p class="font-semibold md:ps-0 ps-5">Discover <span class="text-red-500">-</span> Interact <span class="text-red-500">-</span> Engage </p>
+                <p class="md:text-[64px] text-6xl md:ps-0 ps-5 md:pb-0 pb-3 font-semibold md:pt-5 leading-tight">Google <br> <span class="underline text-red-500">IT Support</span> <br> Certificate</p>
+                <p class="md:text-[18px] md:ps-0 ps-5 md:pt-5">This is your path to a career in IT. In this program, you’ll learn in- <br> demand skills with no degree or experience required. </p>
+                <div class="flex items-center gap-5 pt-5 md:ps-0 ps-5 md:pb-0 pb-5 md:pt-10">
+                    <div class="items-center gap-2">
+                        <p class="text-[#00FF84] text-[24px]">438</p>
+                        <p >Video</p>
+                    </div>
+                    <div class="items-center">
+                        <p class="text-[#00FF84] text-[24px]">438</p>
+                        <p>Reading</p>
+                    </div>
+                    <div class="items-center">
+                        <p class="text-[#00FF84] text-[24px]">438</p>
+                        <p>Quizzes</p>
+                    </div>
+                    <div class="items-center">
+                        <p class="text-[#00FF84] text-[24px]">438</p>
+                        <p>Exercises</p>
+                    </div>
+                    <div class="items-center">
+                        <p class="text-[#00FF84] text-[24px]">438</p>
+                        <p>Assignments</p>
+                    </div>
+                </div>
+                <div class="flex md:pt-10 md:gap-5 gap-5 md:ps-0 ps-5">
+                    <button class="px-4 py-2 border bg-[#F44335] rounded-lg text-white shadow-lg transition hover:scale-x-105">Sign up</button>
+                    <button class="px-4 py-2 border bg-white rounded-lg text-blac hover:bg-red-500 hover:text-white">Learn more</button>
+                </div>
+            </div>
+
+
+            <div class="md:col-span-6 col-span-12 flex justify-center items-center md:pt-0 pt-11">
+                <img class="md:max-w-full md:h-auto w-[400px] flex-shrink-0" src="img/Group 1964.png" alt="">
+            </div>
+        </section>
+
+        <section class="container mx-auto grid grid-cols-12 items-center justify-center md:pb-0 pb-10">
+            <div class="md:col-span-3 col-span-12 md:ps-10 ps-0">
+                <p class="md:whitespace-pre-line whitespace-normal text-center md:text-left md:px-0 px-10">
+                    Pave your path to career success by gaining a professional Google certificate with the support of C4U
+                </p>
+            </div>  
+
+            <div class="md:col-span-3 col-span-12 md:ps-10 md:border-s-2  md:ml-10  flex justify-center">
+                <img class="" src="img/Google.png" alt="">
+            </div>
+            <div class="md:col-span-3 col-span-12 md:ps-10 md:border-s-2 md:pr-10 md:border-r-2 md:ml-10 flex justify-center">
+                <img src="img/Work & Pensions.png" alt="">
+            </div>
+            <div class="md:col-span-3 col-span-12 md:ps-10 md:ml-10 flex justify-center">
+                <img src="img/c4u full logo_2022 1.png" alt="">
+            </div>
+           
+        </section>
+
+        <section class="grid grid-cols-12 justify-center bg-[#FAFAFA] items-center md:px-10 px-11 md:py-10 py-11 gap-10">
+            <div class="md:col-span-6 md:h-[550px] col-span-12 p-5 rounded-lg border shadow-lg transition hover:scale-105">
+                <p class="md:text-2xl font-semibold pb-5">What you will learn</p>
+                <div class="border-t-2 border-[#F9CCC7]"></div>
+                <div class="flex items-center gap-5 pt-5">
+                    <img class="w-10 md:w-auto" src="img/Checkmark.png" alt="">
+                    <p class="md:text-xl">Gain skills required to succeed in an entry-level IT job</p>
+                </div>
+                <div class="flex items-center gap-5 md:pt-10 pt-5">
+                    <img class="w-10 md:w-auto" src="img/Checkmark.png" alt="">
+                    <p class="md:text-xl"> Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+                </div>
+                <div class="flex items-center gap-5 md:pt-10 pt-5">
+                    <img class="w-10 md:w-auto" src="img/Checkmark.png" alt="">
+                    <p class="md:text-xl">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+                </div>
+                <div class="flex items-center gap-5 md:pt-10 pt-5">
+                    <img class="w-10 md:w-auto" src="img/Checkmark.png" alt="">
+                    <p class="md:text-xl">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+                </div>
+            </div>
+
+            <div class="md:col-span-6 col-span-12 p-5 md:h-[550px] rounded-lg border shadow-lg transition hover:scale-105 gap-10">
+                <img class=" " src="img/IT_social 1.png" alt="">
+                <p class="text-2xl font-semibold pb-3">Skills you will gain </p>
+                <div class="border-t-2 border-[#F9CCC7] pb-3"></div>
+                <div class="flex gap-5 pb-3">
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Debugging</button>
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Customer Service</button>
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Customer</button>
+                </div>
+                <div class="flex gap-5 pb-3">
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Domain Name System (DNS)</button>
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Network Model</button>
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Linux</button>
+                </div>
+                <div class="flex gap-5 pb-3">
+                    <button class="border border-[#F44335] rounded-lg px-2  md:text-[18px] hover:bg-red-400 hover:text-white">Encryption Algorithms and Techniques</button>
+                    <button class="border border-[#F44335] rounded-lg px-2  md:text-[18px] hover:bg-red-400 hover:text-white">Network Protocols</button>
+                    
+                </div>
+                <div class="flex gap-5 pb-3">
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Ipv4</button>
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Troubleshooting</button>
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Binary Code</button>
+                    <button class="border border-[#F44335] rounded-lg px-2 md:text-[18px] hover:bg-red-400 hover:text-white">Cloud Computing</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="grid grid-cols-12 justify-center bg-[#FAFAFA] items-center md:px-10 md:py-10 gap-10">
+            <div class="md:col-span-6 col-span-12 p-5 m-5 md:m-0 rounded-lg border shadow-lg transition hover:scale-105">
+                <p class="text-2xl font-semibold pb-5">Jobs Assocaited with Certificate </p>
+                <div class="border-t-2 border-[#F9CCC7] pb-5"></div>
+                <div class="flex gap-10">
+                    <div>
+                        <div class="flex items-center pb-5 gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>Database administrator</p>
+                        </div>
+                        <div class="flex items-center pb-5  gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>Tech support specialist</p>
+                        </div>
+                        <div class="flex items-center pb-5  gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>IT specialist</p>
+                        </div>
+                        <div class="flex items-center pb-5  gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>Systems analyst</p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>Network engineer</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center pb-5 gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>Help desk technician</p>
+                        </div>
+                        <div class="flex items-center pb-5  gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>IT support spcialist</p>
+                        </div>
+                        <div class="flex items-center pb-5  gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>IT technician</p>
+                        </div>
+                        <div class="flex items-center pb-5  gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>Computer user specialist</p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <img src="img/arrows.png" alt="">
+                            <p>Database administrator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:col-span-6 col-span-12 p-5 m-5 md:m-0 rounded-lg border shadow-lg transition hover:scale-105">
+                <img class="h-[300px] w-full" src="img/IT  1.png" alt="">
+            </div>
+        </section>
+
+
+        <!-- Course Details -->
+         <section id="course" class="md:p-0 px-5 pt-5 ">
+            <div class="flex relative justify-between pb-5 md:pb-0">
+                <p class="md:text-4xl font-semibold md:ps-5 md:pt-5">There are 5 Courses in this <br> Professional Certificate</p>
+                <img class="absolute right-0 z-0 md:w-[220px] w-[80px]" src="img/Group 238902.png" alt="">
+            </div>
+            <div class="md:pt-10 md:text-2xl md:ps-5 md:flex md:visible hidden md:gap-10 gap-3 md:pb-6 ">
+                <a class="border px-5 py-1 rounded-full bg-green-500" href="#">Home</a>
+                <a class="border px-5 py-1 rounded-full hover:bg-green-400" href="#">About Us</a>
+                <a class="border px-5 py-1 rounded-full hover:bg-green-400" href="#">Upskill</a>
+                <a class="border px-5 py-1 rounded-full hover:bg-green-400" href="#">Contact us </a>
+            </div>
+            <div class="border-t-2 border-[#F9CCC7] pb-5 md:pb-0"></div>
+         </section>
+        
+      </main>
+
+
+      <!-- Technical Support Fundamentals -->
+
+      <div id="support" class="md:mt-[140px] mt-5 md:mb-[140px]">
+        <div class="container relative mx-auto grid grid-cols-12 items-center md:p-10">
+
+            <div class=" md:col-span-3 col-span-12 md:rounded-l-lg rounded-lg md:h-[850px] ps-5 pt-5  mx-5 md:mx-0 md:ps-5 bg-[#2D3142]">
+                <p class="text-[#00FF84] md:pt-4 w-fit md:pb-0 pb-3">Course 1 </p>
+                <h1 class="text-white md:text-4xl text-xl md:pt-5 md:pb-0 pb-3">Technical <br> Support <br> Fundamentals</h1>
+                <div class="flex md:gap-10 md:py-8 ">
+                    <p class="text-[#00FF84] text-[14px]">132,411 ratings</p>
+                    <div class="flex items-center gap-3">
+                        <p>*</p>
+                        <p class="text-[#FFCB45]">4.8</p>
+                    </div>
+                </div>
+                <div class="flex md:gap-5 gap-3 md:py-0 py-3">
+                    <button class="px-3 py-2 rounded-lg text-white bg-[#F44335]">Sign Up</button>
+                    <button class="px-5 py-2 rounded-lg text-gray-800 bg-white hover:bg-red-500 hover:text-white">Next</button>
+                </div>
+                <div class=" md:absolute bottom-0 md:w-[280px] md:pb-[100px] pb-5 w-full pr-5">
+                    <p class="text-white ">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                </div>
+            </div>
+
+            <div class="md:col-span-9 col-span-12 md:h-[850px] bg-[#FFFFFF] shadow-2xl rounded-r-lg md:pt-5 md:ps-5 m-5 md:m-0">
+                <p class="text-xl font-semibold text-[#F9CCC7] md:p-0 p-3">About this course</p>
+                <p class="md:text-[14px] text-[#072125] md:p-0 p-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+                <p class="text-[#F9CCC7] md:pt-10 md:pb-5 md:p-0 p-3">What you will learn </p>
+                <div class="grid gap-3 md:p-0 p-3">
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand how the binary system works</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p> Learn how applications are created and how they work under the hood of a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Assemble a computer from scratch</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Choose and install an operating system on a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                    </div>
+                </div>
+
+                <div class="md:pt-10 md:pb-5 md:p-0 p-3">
+                    <p class="text-[#F9CCC7] text[18px] md:pb-2">Skills you will gain </p>
+                    <div class="md:pb-5 md:py-0 py-3 md:flex grid gap-3 md:gap-5">
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Binary Code</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Troubleshooting</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Customer Support</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Linux</button>
+                    </div>
+                </div>
+                    <!-- information -->
+                 <div class="md:px-0 px-5 md:py-0 py-5">
+                    <p class="md:pb-5">Information </p>
+                    <div class="flex gap-3 md:pb-2 items-center text-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>FFlexible deadlines</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>sShareable Certificate</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p> 100% online</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Beginner Level</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Approx. 20 hours to complete</p>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+        <!-- support-2 -->
+        <div class="container relative mx-auto grid grid-cols-12 items-center md:p-10">
+
+            <div class=" md:col-span-3 col-span-12 md:rounded-l-lg rounded-lg md:h-[850px] ps-5 pt-5  mx-5 md:mx-0 md:ps-5 bg-[#2D3142]">
+                <p class="text-[#00FF84] md:pt-4 w-fit md:pb-0 pb-3">Course 1 </p>
+                <h1 class="text-white md:text-4xl text-xl md:pt-5 md:pb-0 pb-3">Technical <br> Support <br> Fundamentals</h1>
+                <div class="flex md:gap-10 md:py-8 ">
+                    <p class="text-[#00FF84] text-[14px]">132,411 ratings</p>
+                    <div class="flex items-center gap-3">
+                        <p>*</p>
+                        <p class="text-[#FFCB45]">4.8</p>
+                    </div>
+                </div>
+                <div class="flex md:gap-5 gap-3 md:py-0 py-3">
+                    <button class="px-3 py-2 rounded-lg text-white bg-[#F44335]">Sign Up</button>
+                    <button class="px-5 py-2 rounded-lg text-gray-800 bg-white hover:bg-red-500 hover:text-white">Next</button>
+                </div>
+                <div class=" md:absolute bottom-0 md:w-[280px] md:pb-[100px] pb-5 w-full pr-5">
+                    <p class="text-white ">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                </div>
+            </div>
+
+            <div class="md:col-span-9 col-span-12 md:h-[850px] bg-[#FFFFFF] shadow-2xl rounded-r-lg md:pt-5 md:ps-5 m-5 md:m-0">
+                <p class="text-xl font-semibold text-[#F9CCC7] md:p-0 p-3">About this course</p>
+                <p class="md:text-[14px] text-[#072125] md:p-0 p-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+                <p class="text-[#F9CCC7] md:pt-10 md:pb-5 md:p-0 p-3">What you will learn </p>
+                <div class="grid gap-3 md:p-0 p-3">
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand how the binary system works</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p> Learn how applications are created and how they work under the hood of a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Assemble a computer from scratch</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Choose and install an operating system on a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                    </div>
+                </div>
+
+                <div class="md:pt-10 md:pb-5 md:p-0 p-3">
+                    <p class="text-[#F9CCC7] text[18px] md:pb-2">Skills you will gain </p>
+                    <div class="md:pb-5 md:py-0 py-3 md:flex grid gap-3 md:gap-5">
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Binary Code</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Troubleshooting</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Customer Support</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Linux</button>
+                    </div>
+                </div>
+                    <!-- information -->
+                 <div class="md:px-0 px-5 md:py-0 py-5">
+                    <p class="md:pb-5">Information </p>
+                    <div class="flex gap-3 md:pb-2 items-center text-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>FFlexible deadlines</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>sShareable Certificate</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p> 100% online</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Beginner Level</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Approx. 20 hours to complete</p>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+        <!-- support-3 -->
+        <div class="container relative mx-auto grid grid-cols-12 items-center md:p-10">
+
+            <div class=" md:col-span-3 col-span-12 md:rounded-l-lg rounded-lg md:h-[850px] ps-5 pt-5  mx-5 md:mx-0 md:ps-5 bg-[#2D3142]">
+                <p class="text-[#00FF84] md:pt-4 w-fit md:pb-0 pb-3">Course 1 </p>
+                <h1 class="text-white md:text-4xl text-xl md:pt-5 md:pb-0 pb-3">Technical <br> Support <br> Fundamentals</h1>
+                <div class="flex md:gap-10 md:py-8 ">
+                    <p class="text-[#00FF84] text-[14px]">132,411 ratings</p>
+                    <div class="flex items-center gap-3">
+                        <p>*</p>
+                        <p class="text-[#FFCB45]">4.8</p>
+                    </div>
+                </div>
+                <div class="flex md:gap-5 gap-3 md:py-0 py-3">
+                    <button class="px-3 py-2 rounded-lg text-white bg-[#F44335]">Sign Up</button>
+                    <button class="px-5 py-2 rounded-lg text-gray-800 bg-white hover:bg-red-500 hover:text-white">Next</button>
+                </div>
+                <div class=" md:absolute bottom-0 md:w-[280px] md:pb-[100px] pb-5 w-full pr-5">
+                    <p class="text-white ">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                </div>
+            </div>
+
+            <div class="md:col-span-9 col-span-12 md:h-[850px] bg-[#FFFFFF] shadow-2xl rounded-r-lg md:pt-5 md:ps-5 m-5 md:m-0">
+                <p class="text-xl font-semibold text-[#F9CCC7] md:p-0 p-3">About this course</p>
+                <p class="md:text-[14px] text-[#072125] md:p-0 p-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+                <p class="text-[#F9CCC7] md:pt-10 md:pb-5 md:p-0 p-3">What you will learn </p>
+                <div class="grid gap-3 md:p-0 p-3">
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand how the binary system works</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p> Learn how applications are created and how they work under the hood of a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Assemble a computer from scratch</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Choose and install an operating system on a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                    </div>
+                </div>
+
+                <div class="md:pt-10 md:pb-5 md:p-0 p-3">
+                    <p class="text-[#F9CCC7] text[18px] md:pb-2">Skills you will gain </p>
+                    <div class="md:pb-5 md:py-0 py-3 md:flex grid gap-3 md:gap-5">
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Binary Code</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Troubleshooting</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Customer Support</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Linux</button>
+                    </div>
+                </div>
+                    <!-- information -->
+                 <div class="md:px-0 px-5 md:py-0 py-5">
+                    <p class="md:pb-5">Information </p>
+                    <div class="flex gap-3 md:pb-2 items-center text-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>FFlexible deadlines</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>sShareable Certificate</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p> 100% online</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Beginner Level</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Approx. 20 hours to complete</p>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+        <!-- support-4 -->
+        <div class="container relative mx-auto grid grid-cols-12 items-center md:p-10">
+
+            <div class=" md:col-span-3 col-span-12 md:rounded-l-lg rounded-lg md:h-[850px] ps-5 pt-5  mx-5 md:mx-0 md:ps-5 bg-[#2D3142]">
+                <p class="text-[#00FF84] md:pt-4 w-fit md:pb-0 pb-3">Course 1 </p>
+                <h1 class="text-white md:text-4xl text-xl md:pt-5 md:pb-0 pb-3">Technical <br> Support <br> Fundamentals</h1>
+                <div class="flex md:gap-10 md:py-8 ">
+                    <p class="text-[#00FF84] text-[14px]">132,411 ratings</p>
+                    <div class="flex items-center gap-3">
+                        <p>*</p>
+                        <p class="text-[#FFCB45]">4.8</p>
+                    </div>
+                </div>
+                <div class="flex md:gap-5 gap-3 md:py-0 py-3">
+                    <button class="px-3 py-2 rounded-lg text-white bg-[#F44335]">Sign Up</button>
+                    <button class="px-5 py-2 rounded-lg text-gray-800 bg-white hover:bg-red-500 hover:text-white">Next</button>
+                </div>
+                <div class=" md:absolute bottom-0 md:w-[280px] md:pb-[100px] pb-5 w-full pr-5">
+                    <p class="text-white ">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                </div>
+            </div>
+
+            <div class="md:col-span-9 col-span-12 md:h-[850px] bg-[#FFFFFF] shadow-2xl rounded-r-lg md:pt-5 md:ps-5 m-5 md:m-0">
+                <p class="text-xl font-semibold text-[#F9CCC7] md:p-0 p-3">About this course</p>
+                <p class="md:text-[14px] text-[#072125] md:p-0 p-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+                <p class="text-[#F9CCC7] md:pt-10 md:pb-5 md:p-0 p-3">What you will learn </p>
+                <div class="grid gap-3 md:p-0 p-3">
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand how the binary system works</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p> Learn how applications are created and how they work under the hood of a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Assemble a computer from scratch</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Choose and install an operating system on a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                    </div>
+                </div>
+
+                <div class="md:pt-10 md:pb-5 md:p-0 p-3">
+                    <p class="text-[#F9CCC7] text[18px] md:pb-2">Skills you will gain </p>
+                    <div class="md:pb-5 md:py-0 py-3 md:flex grid gap-3 md:gap-5">
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Binary Code</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Troubleshooting</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Customer Support</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Linux</button>
+                    </div>
+                </div>
+                    <!-- information -->
+                 <div class="md:px-0 px-5 md:py-0 py-5">
+                    <p class="md:pb-5">Information </p>
+                    <div class="flex gap-3 md:pb-2 items-center text-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>FFlexible deadlines</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>sShareable Certificate</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p> 100% online</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Beginner Level</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Approx. 20 hours to complete</p>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+        <!-- support-5 -->
+        <div class="container relative mx-auto grid grid-cols-12 items-center md:p-10">
+
+            <div class=" md:col-span-3 col-span-12 md:rounded-l-lg rounded-lg md:h-[850px] ps-5 pt-5  mx-5 md:mx-0 md:ps-5 bg-[#2D3142]">
+                <p class="text-[#00FF84] md:pt-4 w-fit md:pb-0 pb-3">Course 1 </p>
+                <h1 class="text-white md:text-4xl text-xl md:pt-5 md:pb-0 pb-3">Technical <br> Support <br> Fundamentals</h1>
+                <div class="flex md:gap-10 md:py-8 ">
+                    <p class="text-[#00FF84] text-[14px]">132,411 ratings</p>
+                    <div class="flex items-center gap-3">
+                        <p>*</p>
+                        <p class="text-[#FFCB45]">4.8</p>
+                    </div>
+                </div>
+                <div class="flex md:gap-5 gap-3 md:py-0 py-3">
+                    <button class="px-3 py-2 rounded-lg text-white bg-[#F44335]">Sign Up</button>
+                    <button class="px-5 py-2 rounded-lg text-gray-800 bg-white hover:bg-red-500 hover:text-white">Next</button>
+                </div>
+                <div class=" md:absolute bottom-0 md:w-[280px] md:pb-[100px] pb-5 w-full pr-5">
+                    <p class="text-white ">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                </div>
+            </div>
+
+            <div class="md:col-span-9 col-span-12 md:h-[850px] bg-[#FFFFFF] shadow-xl rounded-r-lg md:pt-5 md:ps-5 m-5 md:m-0">
+                <p class="text-xl font-semibold text-[#F9CCC7] md:p-0 p-3">About this course</p>
+                <p class="md:text-[14px] text-[#072125] md:p-0 p-3">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+                <p class="text-[#F9CCC7] md:pt-10 md:pb-5 md:p-0 p-3">What you will learn </p>
+                <div class="grid gap-3 md:p-0 p-3">
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand how the binary system works</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p> Learn how applications are created and how they work under the hood of a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Assemble a computer from scratch</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Choose and install an operating system on a computer</p>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="md:w-8 w-7" src="img/Checkmark.png" alt="">
+                        <p>Understand what the Internet is, how it works, and the impact it has in the modern world</p>
+                    </div>
+                </div>
+
+                <div class="md:pt-10 md:pb-5 md:p-0 p-3">
+                    <p class="text-[#F9CCC7] text[18px] md:pb-2">Skills you will gain </p>
+                    <div class="md:pb-5 md:py-0 py-3 md:flex grid gap-3 md:gap-5">
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Binary Code</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Troubleshooting</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Customer Support</button>
+                        <button class="text-[#181818] border border-[#F44335] px-4 py-2 rounded-full hover:bg-red-500 hover:text-white">Linux</button>
+                    </div>
+                </div>
+                    <!-- information -->
+                 <div class="md:px-0 px-5 md:py-0 py-5">
+                    <p class="md:pb-5">Information </p>
+                    <div class="flex gap-3 md:pb-2 items-center text-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>FFlexible deadlines</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>sShareable Certificate</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p> 100% online</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Beginner Level</p>
+                    </div>
+                    <div class="flex gap-3 md:pb-2 items-center">
+                        <i class="fa-solid fa-circle text-red-500 text-[8px]"></i>
+                        <p>Approx. 20 hours to complete</p>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+      <!-- broke-cragle -->
+       <div class="container relative mx-auto bg-cover bg-center object-cover h-[300px] md:h-[557px]" style="background-image: url(img/brooke-cagle-g1Kr4Ozfoac-unsplash\ 2.png);">
+        <div class="absolute md:left-[100px] left-[40px] ps-5 pt-5 top-10 md:top-11 md:w-[550px] w-[400px] md:h-[435px] h-[200px] bg-white rounded-lg md:ps-10 md:pt-5">
+            <img class="w-5" src="img/“.png" alt="">
+            <p class="md:text-[26px] font-semibold md:pt-5 md:pr-3">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</p>
+            <p class="md:text-[18px] md:pt-10 md:pr-5 text-[#F9CCC7]">Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate</p>
+        </div>
+       </div>
+
+       <!-- footer -->
+        <footer class="container mx-auto grid grid-cols-12 md:items-center md:my-0 my-5 justify-between  md:justify-between md:px-0 px-3 md:pt-10 md:gap-0 gap-5 border-b-2 pb-5 md:pb-5">
+            <div class="md:col-span-4 col-span-6 md:ps-[100px]">
+                <img class="" src="img/c4u full logo_2022 1.png" alt="">
+                <div>
+                    <p>Level39</p>
+                    <p>One Canada Square,</p>
+                    <p>Canary Wharf, </p>
+                    <p>London,</p>
+                    <p>E14 5AB</p>
+                </div>
+            </div>
+            <div class="md:col-span-2 col-span-6 grid md:gap-5 ">
+                <p class="font-semibold">Home</p>
+                <div>
+                    <p>Collaborations</p>
+                <p>Statistics</p>
+                <p>How It Works </p>
+                <p>Testimonials </p>
+                </div>
+            </div>
+            <div class="md:col-span-2 col-span-6 grid md:gap-5">
+                <p class="font-semibold">About Us</p>
+                <div>
+                    <p>Who We Are</p>
+                <p>Mission statement </p>
+                <p>Our Vision  </p>
+                <p>The  Team  </p>
+                </div>
+            </div>
+            <div class="md:col-span-2 col-span-6 grid md:gap-5">
+                <p class="font-semibold">Upskill</p>
+                <div>
+                    <p>It Support </p>
+                <p>Project Managment </p>
+                <p>Data Analysts </p>
+                <p>Ux Design </p>
+                </div>
+            </div>
+            <div class="md:col-span-2 col-span-6 grid md:gap-5">
+                <p class="font-semibold">Contact Us</p>
+                <div>
+                    <p>Your message </p>
+                <p>Email </p>
+                <p>Phone number </p>
+                <p>Linkedin </p>
+                </div>
+            </div>
+        </footer>
+        <!-- copyright -->
+         <div class=" flex md:h-[50px] items-center justify-center text-center md:pb-0 pb">
+            <p class="">Copyright 2022 Creatives For You LTD</p>
+         </div>
+
+
+      <script src="app.js"></script>
+</body>
+</html>
